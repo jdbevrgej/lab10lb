@@ -1,0 +1,32 @@
+{
+    "name": "jdbevrgej/lab10lb",
+    "description": "lab10lb",
+    "type": "library",
+	"license": "-",
+	"authors": [
+		{
+			"name": "Oleja",
+			"email": "oleja@gmail.com"
+		}
+	],
+	
+	"minimum-stability": "dev",
+	
+	"autoload":{
+		"psr-4":{
+			"Malahov\\": "Malahov"
+		}
+	},
+	
+    "require": {
+		 "rok9ru/trpo-core": "2.0"
+	},
+	
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
